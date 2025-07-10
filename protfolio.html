@@ -4,72 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <header>
-      <h1>Khushi Kumari</h1>
-     
-      <p>I am an enthusiastic, self-motivated, reliable, responsible and calm person. Known for
-being hardworking, dependable, and always willing to support team goals with integrity
-and a positive attitude. I built a strong foundation in programming, data structures, and
-software development. Seeking an opportunity to apply my technical skills and passion for
-learning in a dynamic organization to contribute meaningfully and gain practical
-experience."</p>
-      <img src="khushi photo.jpg" alt="my image" height="100px" width="100px">
-      <hr>
+    <!-- HEADER SECTION -->
+    <header class="header">
+        <h1 class="logo">My Portfolio</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!--protfolio section-->
-
-    <section>
-
-     <h2>Education</h2>
-     <ul>
-       <LI><b>10th class (CBSE)</b> 90%</LI>
-       <li><b>12th class (CBSE)</b> 74%</li>
-       <li><b> Btech CSE (IES college of technology)</b></li>
-
-     </ul>
-     <hr>
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <img src="khushi photo.jpg" alt="Profile Image">
+        <h2>Hi, I'm khushi kumari</h2>
+        <p>A Web Developer passionate about creating awesome websites.</p>
     </section>
 
-    <section>
-
-     <h2>Skill</h2>
-     <ul>
-        <Li>web development (HTML,CSS,javascript, framework like React )</Li>
-        <li>python programming with DSA</li>
-        <li>Database with SQL</li>
-     </ul>
-     <hr>
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am a front-end developer with expertise in HTML, CSS, and JavaScript.</p>
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Database (my sql)</span>
+        </div>
     </section>
 
-    <section>
-
-     <h2>Hobbies</h2>
-     <ul>
-        <li>Dancing</li>
-        <li>Reading (novel, technical magazine)</li>
-        <li>Playing (table tennis) with national certificate holder</li>
-     </ul>
-     <hr>
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">Event Registration System</div>
+            <div class="project-card">Personal Portfolio Website (with Contact Form)</div>
+            <div class="project-card">Online Feedback Form</div>
+        </div>
     </section>
 
-    <footer>
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="khushi kumari" required>
+            <input type="email" placeholder="khushik30002@gmail.com" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
 
-     <h2>Contact Me:</h2>
-     <ul>
-      <li> Email: khushik30002@gmail.com</li>
-      <LI> phone no:6204277368</LI>
-
-     </ul>
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
     </footer>
 
-    
-
-
-
 </body>
-
 </html>
